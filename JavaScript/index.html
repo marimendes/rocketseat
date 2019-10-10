@@ -3,16 +3,13 @@
 		<title>Curso Javascript</title>
 	</head>
 	<body>
+		<div id="app">
+			<input onkeypress="mostraAlerta() "/>
+		</div>
 		<script> 
-			function retornaSexo(sexo) {
-			var sexo = 'M', idade = 10;
-
-			if( sexo !== 'M') {
-				console.log('OK');
-			}
-			var masculino = (sexo === 'M');
-			
-			console.log(masculino);
+		function mostraAlerta(){
+			alert('Botão foi clicado');
+		}
 		</script>
 	</body>
 </html>
