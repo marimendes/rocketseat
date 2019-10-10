@@ -5,16 +5,14 @@
 	<body>
 		<script> 
 			function retornaSexo(sexo) {
-				if (sexo === 'M'){
-					return 'Masculino';
-				} else if (sexo === 'F') {
-					return 'Feminino';
-				} else {
-					return 'Outro';
-				}
+			var sexo = 'M', idade = 10;
+
+			if( sexo !== 'M') {
+				console.log('OK');
 			}
-			var resultado = retornaSexo('F');
-			console.log(resultado);
+			var masculino = (sexo === 'M');
+			
+			console.log(masculino);
 		</script>
 	</body>
 </html>
